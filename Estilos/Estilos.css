@@ -1,0 +1,281 @@
+*{
+  padding: 0;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin: 0;
+  box-sizing: border-box;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+
+body {
+  background-color: #212529 ;
+
+}
+
+.navbar{
+  background-color: black;
+}
+
+.navbar-tab-contents {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;}
+
+  .tab-pane {
+    padding: 0.25rem;
+    border-radius: 0 0 0.25rem 0.25rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity));
+  }
+
+  .container{
+    background-color: #041b4b;
+    color: #041b4b;
+  }
+
+/*MAIN*/
+  
+  .Videoindex{
+    text-align: center;
+    padding-bottom: 200px;
+    padding-top: 100px;
+    height:100%;
+    width:100%;
+  }   
+
+ h2{
+    font-style:italic;
+    font-weight: bolder;
+    color: rgb(255, 250, 250);
+    font-size: 80px;;
+    font-weight: bold;
+    text-align: center;
+}
+
+  h3 {
+    font-style: serif
+
+}
+h3 {
+    padding-top: 100px;
+    color:white;
+    font-size: x-large;
+    text-align: center;
+    width: 100%;
+}
+/*FOTOS BANDA*/
+
+.column1{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.column img{
+  width: 100%;
+  margin-top: 5px;}
+
+  .column1{
+    flex: 25%;
+    padding: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  
+
+/*FOTOS DE LA GALERIA*/
+
+.column1{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.column img{
+  width: 100%;
+  margin-top: 5px;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  margin: solid white;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.column img:hover{
+  filter: opacity(1.5);
+  transform: scale(1.50);
+}
+
+.column{
+  flex: 25%;
+  padding: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+@media (max-width: 800px) {
+
+  .column{
+    flex:33%;
+  }
+  
+}
+
+@media (max-width: 600px) {
+
+  .column{
+    flex:100%;
+  }
+  
+}
+
+
+/*BANDA*/
+
+
+p{
+  font-size: large;
+}
+ 
+.textobanda{
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
+    padding-top: 10px;
+    text-align: center;
+    width: 100%;
+  
+}
+
+.divfreddie{
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom:  solid white;
+  border-top: solid white;
+}
+
+.divbrian{
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom:  solid white;
+}
+
+
+.divroger{
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom:  solid white;
+}
+
+.divjohn{
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom:  solid white;
+}
+
+.textobanda{
+  padding-top: 30px;
+  padding-left: 65px;
+  padding-right: 65px;
+}
+
+.freddie{
+  width: 60%;
+  height: 100%;
+}
+
+.brian{
+  width: 60%;
+  height: 100%;
+}
+
+.roger{
+  width: 60%;
+  height: 100%;
+}
+
+.john{
+  width: 60%;
+  height: 100%;
+}
+
+/*DISCOGRAFIA*/
+
+.musica{
+  text-align: center;
+  align-items: center;
+  padding-top: 15px ;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+h3{
+  padding-bottom: 15px;
+}
+
+
+.reproductores{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/*CONTACTO*/
+
+.formulario{
+  background-color: grey;
+  padding-left: 300px;
+  padding-right: 300px;
+  padding-top: 25px;
+  padding-bottom: 20px;
+  margin-bottom: 200px;
+  margin-right: 250px;
+  margin-left: 250px;
+}
+
+.fotofinal{
+  text-align: center;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 100%;
+  height: 100%;
+  padding-top: 50px;
+}
+
+
+/*MEDIA*/
+@media (min-width: 1199.98px) {
+}
+
+    @media (min-width: 576px) and (max-width: 991.98px) and (orientation:portrait) {
+}
+
+    @media (min-width: 991.98px) and (max-width: 1199.98px)and (orientation:landscape) {
+}
+
